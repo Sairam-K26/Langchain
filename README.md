@@ -76,3 +76,17 @@ In the previous example, the text we passed to the model contained instructions 
 
 PromptTemplates help with exactly this! They bundle up all the logic for going from user input into a fully formatted prompt
 
+Output parsers
+OutputParsers convert the raw output of an LLM into a format that can be used downstream. There are few main type of OutputParsers, including:
+
+Convert text from LLM -> structured information (e.g. JSON)
+
+Convert a ChatMessage into just a string
+
+Convert the extra information returned from a call besides the message (like OpenAI function invocation) into a string.
+
+
+
+
+
+
