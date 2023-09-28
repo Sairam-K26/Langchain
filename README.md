@@ -15,3 +15,12 @@ Components: abstractions for working with language models, along with a collecti
 Off-the-shelf chains: a structured assembly of components for accomplishing specific higher-level tasks
 Off-the-shelf chains make it easy to get started. For complex applications, components make it easy to customize existing chains and build new ones.
 
+
+QuickStart :
+
+Installing Langchain using pip 
+```
+pip install langchain
+
+```
+
