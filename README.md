@@ -86,6 +86,41 @@ Convert a ChatMessage into just a string
 Convert the extra information returned from a call besides the message (like OpenAI function invocation) into a string.
 
 
+Models:
+Model I/​O : 
+Prompts:
+Prompt templates
+
+Connecting to a Feature Store
+Custom prompt template
+Few-shot prompt templates
+Few-shot examples for chat models
+Format template output
+Template formats
+Types of MessagePromptTemplate
+Partial prompt templates
+Composition
+Serialization
+Prompt pipelining
+Validate template
+
+Language models
+
+Output parsers
+
+Retrieval : 
+
+Chains
+
+Memory
+
+Agents
+
+Callbacks
+
+
+
+
 
 
 
