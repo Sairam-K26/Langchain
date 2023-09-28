@@ -69,3 +69,10 @@ predict: Takes in a string, returns a string
 
 predict_messages: Takes in a list of messages, returns a message.
 
+Prompt templates
+Most LLM applications do not pass user input directly into an LLM. Usually they will add the user input to a larger piece of text, called a prompt template, that provides additional context on the specific task at hand.
+
+In the previous example, the text we passed to the model contained instructions to generate a company name. For our application, it'd be great if the user only had to provide the description of a company/product, without having to worry about giving the model instructions.
+
+PromptTemplates help with exactly this! They bundle up all the logic for going from user input into a fully formatted prompt
+
