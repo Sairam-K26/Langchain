@@ -108,7 +108,7 @@ Language models
 
 Output parsers
 
-Retrieval : 
+Retrieval 
 
 Chains
 
